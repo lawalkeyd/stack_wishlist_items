@@ -1,0 +1,107 @@
+.container
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+body
+{
+    font-size: 18px;
+    scroll-behavior: smooth;
+    color: var(--black-text);
+    font-family: 'Roboto', sans-serif;
+}
+
+.page_title
+{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    
+    color: #000000;    
+}
+
+.title_text
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */    
+    color: #000000;    
+}
+
+.wishlist_nav
+{
+    border-bottom: 1px solid #f3f3f3;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;   
+}
+
+.wishlist_nav a
+{
+    text-decoration: none;
+    color: #06415D;
+    border-bottom: 2px solid #06415D;
+    margin-left: 1.0rem;
+}
+
+.desc_col
+{
+    width: 310px;
+    height: 257px;
+    left: 0px;
+    top: 0px;
+    
+    background: #F6F6F6;
+    border-radius: 8px;    
+}
+
+.lrg_img
+{
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.descr_title
+{
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 20px;
+    color: #000000; 
+    font-weight: 300;   
+}
+
+.descr_price
+{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 37px;
+    color: #000000;    
+}
+
+.ngn
+{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 37px;
+    color: #000000;    
+}
+
+.remove_lnk
+{
+    color: #C60000;
+    text-decoration: none;
+}
+
+.cart_lnk
+{
+    color: #06415D;
+    text-decoration: none;
+    margin-right: 2.9375rem;
+}
