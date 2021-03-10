@@ -1,0 +1,514 @@
+.container
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+body
+{
+    font-size: 18px;
+    scroll-behavior: smooth;
+    color: var(--black-text);
+    font-family: 'Roboto', sans-serif;
+}
+
+.page_title
+{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    
+    color: #000000;    
+}
+
+.progress-bar{
+    background-color: #06415D;
+}
+
+.donations_no
+{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;    
+}
+
+.donation_img
+{
+    background: #F3F3F3;
+    border-radius: 4px;
+    padding: 15px;
+    line-height: 1.0;
+}
+
+.donation_row
+{
+    line-height: 1.0;
+}
+
+.title_text
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */    
+    color: #000000;    
+}
+
+.wishlist_nav
+{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;   
+}
+
+.wishlist_row
+{
+    border-bottom: 1px solid #f3f3f3;
+    margin-top: 30px;
+    padding-bottom: 5px;
+}
+
+.wishlist_nav a
+{
+    text-decoration: none;
+    margin-right: 1.0rem;
+}
+
+.wishlist_active
+{
+    color: #06415D;
+    border-bottom: 3px solid #06415D;    
+}
+
+.wishlist_inactive
+{
+    color: #C4C4C4;    
+}
+
+.desc_col
+{
+    width: 310px;
+    height: 257px;
+    left: 0px;
+    top: 0px;
+    
+    background: #F6F6F6;
+    border-radius: 8px;    
+}
+
+.lrg_img
+{
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.descr_title
+{
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 20px;
+    color: #000000; 
+    font-weight: 300;   
+}
+
+.descr_price
+{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 37px;
+    color: #000000;    
+}
+
+.ngn
+{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 37px;
+    color: #000000;    
+}
+
+.remove_lnk
+{
+    color: #C60000;
+    text-decoration: none;
+}
+
+.cart_lnk
+{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+    text-decoration: none;
+    color: #06415D;
+    margin-right: 2.9375rem;
+}
+
+.save_amount
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 30px;
+    /* identical to box height, or 171% */   
+    color: #027637;    
+}
+
+.share_title
+{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;    
+}
+
+.share_img
+{
+    background-color: #F6F6F6;
+    padding: 25px;
+}
+
+.or_text
+{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #9E9E9E;  
+    padding-top: 5px;  
+}
+
+.copy_row
+{
+    background: #F6F6F6;
+    border: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 33px;
+    color: #9E9E9E;        
+}
+
+.copy_link
+{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.copy_text
+{
+    font-size: 18px;
+    line-height: 33px;
+    color: #06415D;
+    padding-top: 10px;
+    padding-left: 5.5rem;
+    text-decoration: none;    
+}
+
+.pricing_summary
+{
+    font-size: 20px;
+    line-height: 23px;
+    color: #676767;    
+}
+
+.pricing_summary p
+{
+    margin-bottom: 0px;
+    width: fit-content;
+}
+
+.ngn_s
+{
+    font-size: 18px;
+    line-height: 21.09px;
+    color: #676767;    
+}
+
+.tc_inline
+{
+    font-size: 16px;
+    line-height: 19px;
+    color: #9E9E9E;    
+}
+
+.tc_col
+{
+    border-right: 1px solid #F3F3F3;
+}
+
+.progress_price
+{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;    
+}
+
+.progress_total
+{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #040404;    
+}
+
+.donation_hrs
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #676767;  
+    padding-top: 0.4rem;  
+}
+
+.recent_donations
+{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;    
+}
+
+.donation_more
+{
+    font-size: 18px;
+    line-height: 21px;    
+}
+
+.checkout_btn_l
+{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background-color: #06415D;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;   
+    text-decoration: none; 
+}
+
+sup
+{
+    top: -.8rem;
+}
+
+.form-label
+{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */   
+    color: #000000;
+    padding-bottom: 6px;
+
+}
+
+.form-check-label
+{
+    font-size: 16px;
+    line-height: 19px;    
+}
+
+.modal_max_words
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+    color: #9E9E9E;    
+    padding-left: 40px;
+}
+
+.form_input
+{
+    background: #F6F6F6;
+    border: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 16px 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 33px;    
+    color: #000000;    
+    max-width: var(--input-max-width);
+}
+
+.settings_header
+{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;    
+}
+
+.settings_text
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;    
+}
+
+.donate_save
+{
+    background: #C4C4C4;
+    border-radius: 4px;
+    color: #fff;
+    padding: 20px;  
+    padding-left: 75px;
+    padding-right: 75px;  
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.reset_save
+{
+    background: #F6F6F6;
+    border-radius: 4px;
+    color: #06415D;
+    padding: 20px;  
+    padding-left: 75px;
+    padding-right: 75px;  
+    text-decoration: none;
+}
+
+textarea {
+    min-height: 10rem!important;
+}
+
+.delete_wish
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #9E9E9E;    
+}
+
+.chip_btn
+{
+    background: #F6F6F6;
+    border: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #676767;    
+}
+
+.chip_col
+{
+    padding-right: 0px;
+}
+
+.active_chip
+{
+    background: #06415D;
+    color: #FFFFFF;    
+}
+
+.complete_img
+{
+    padding: 20px;
+    background-color: #E9FDF9;
+    border-radius: 8px;
+}
+
+.complete_text
+{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 22px;
+    /* identical to box height, or 90% */
+    
+    text-align: center;
+    letter-spacing: 0.002em;
+    
+    color: #000000;    
+}
+
+.complete_sub
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;   
+    color: #676767;    
+}
+
+.try_again
+{
+    background: #F6F6F6;
+    border-radius: 4px;
+    color: #06415D;
+    padding: 20px;  
+    padding-left: 75px;
+    padding-right: 75px;  
+    text-decoration: none;
+}
+
+
+
+/*--mobile--*/
+@media (max-width: 978px) { 
+    .pricing_summary
+    {
+        margin-top: 20px;
+    }
+
+    .wishlist_nav a
+    {
+        margin-top: 5px;
+    }
+
+    .share_img
+    {
+        margin-top: 5px;
+    }
+
+    .copy_link
+    {
+        overflow: hidden;
+    }
+
+    .donate_save
+    {
+        padding: 20px;  
+        padding-left: 35px;
+        padding-right: 35px;  
+        margin-left: 10px;
+
+    }
+    
+    .reset_save
+    {
+        padding: 20px;  
+        padding-left: 35px;
+        padding-right: 35px;  
+    }    
+
+
+}    
