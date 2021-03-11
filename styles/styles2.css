@@ -12,6 +12,13 @@ body
     font-family: 'Roboto', sans-serif;
 }
 
+.donations_sup {
+    position: relative;
+    font-size: 1.4rem;
+    line-height: 0;
+    vertical-align: baseline;
+}
+
 .page_title
 {
     font-family: Roboto;
